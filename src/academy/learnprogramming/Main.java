@@ -1,10 +1,12 @@
 package academy.learnprogramming;
 
 public class Main {
+    //TODO Add algorithm that converts the centimeters in the overloaded method back into feet / inches and reprints that in the output*************
+
 
     public static void main(String[] args) {
         calcFeetAndInchesToCentimeters(5, 11);
-        calcFeetAndInchesToCentimeters(71);
+        calcFeetAndInchesToCentimeters(100);
     }
 
     public static double calcFeetAndInchesToCentimeters(double feet, double inches) {
